@@ -1,0 +1,114 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "plan_title", "type": "text", "x": 90, "y": 55, "width": 880, "height": 48,
+      "text": "H3 | From footage folder to a better rough cut", "originalText": "H3 | From footage folder to a better rough cut",
+      "fontSize": 30, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#1e40af", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 100001, "version": 1, "versionNonce": 100002, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "plan_subtitle", "type": "text", "x": 92, "y": 112, "width": 950, "height": 32,
+      "text": "Prototype plan · working hypothesis, to validate with real footage and editors", "originalText": "Prototype plan · working hypothesis, to validate with real footage and editors",
+      "fontSize": 17, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#64748b", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 100003, "version": 1, "versionNonce": 100004, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "scope_title", "type": "text", "x": 92, "y": 188, "width": 300, "height": 28,
+      "text": "1 · Make one edit feel complete", "originalText": "1 · Make one edit feel complete",
+      "fontSize": 20, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#1e40af", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 100005, "version": 1, "versionNonce": 100006, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "timeline_spine", "type": "line", "x": 120, "y": 290, "width": 1110, "height": 0,
+      "strokeColor": "#1e3a5f", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 3, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 110001, "version": 1, "versionNonce": 110002, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "points": [[0, 0], [1110, 0]]
+    },
+    {
+      "id": "phase1_dot", "type": "ellipse", "x": 130, "y": 280, "width": 20, "height": 20, "strokeColor": "#c2410c", "backgroundColor": "#fed7aa", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 110011, "version": 1, "versionNonce": 110012, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false
+    },
+    {
+      "id": "phase1_head", "type": "text", "x": 102, "y": 225, "width": 250, "height": 28, "text": "Agree the boundary", "originalText": "Agree the boundary", "fontSize": 18, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#c2410c", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 110013, "version": 1, "versionNonce": 110014, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "phase1_detail", "type": "text", "x": 102, "y": 324, "width": 245, "height": 90, "text": "Pick one user, one short edit task, target platform, sample clips, and a playback/export baseline.", "originalText": "Pick one user, one short edit task, target platform, sample clips, and a playback/export baseline.", "fontSize": 15, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#374151", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 110015, "version": 1, "versionNonce": 110016, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.3
+    },
+    {
+      "id": "phase2_dot", "type": "ellipse", "x": 420, "y": 280, "width": 20, "height": 20, "strokeColor": "#1e3a5f", "backgroundColor": "#93c5fd", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 120011, "version": 1, "versionNonce": 120012, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false
+    },
+    {
+      "id": "phase2_head", "type": "text", "x": 392, "y": 225, "width": 250, "height": 28, "text": "Build the vertical slice", "originalText": "Build the vertical slice", "fontSize": 18, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#1e40af", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 120013, "version": 1, "versionNonce": 120014, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "phase2_detail", "type": "text", "x": 392, "y": 324, "width": 245, "height": 90, "text": "Import clips → bin → one video track → trim/reorder → preview. Keep the first loop small.", "originalText": "Import clips → bin → one video track → trim/reorder → preview. Keep the first loop small.", "fontSize": 15, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#374151", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 120015, "version": 1, "versionNonce": 120016, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.3
+    },
+    {
+      "id": "phase3_dot", "type": "ellipse", "x": 710, "y": 280, "width": 20, "height": 20, "strokeColor": "#1e3a5f", "backgroundColor": "#60a5fa", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 130011, "version": 1, "versionNonce": 130012, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false
+    },
+    {
+      "id": "phase3_head", "type": "text", "x": 682, "y": 225, "width": 250, "height": 28, "text": "Save, reopen, export", "originalText": "Save, reopen, export", "fontSize": 18, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#1e40af", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 130013, "version": 1, "versionNonce": 130014, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "phase3_detail", "type": "text", "x": 682, "y": 324, "width": 245, "height": 90, "text": "Persist the cut, restore it after restart, export one preset, and compare the file to the timeline.", "originalText": "Persist the cut, restore it after restart, export one preset, and compare the file to the timeline.", "fontSize": 15, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#374151", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 130015, "version": 1, "versionNonce": 130016, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.3
+    },
+    {
+      "id": "phase4_dot", "type": "ellipse", "x": 1000, "y": 280, "width": 20, "height": 20, "strokeColor": "#047857", "backgroundColor": "#a7f3d0", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 140011, "version": 1, "versionNonce": 140012, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false
+    },
+    {
+      "id": "phase4_head", "type": "text", "x": 972, "y": 225, "width": 250, "height": 28, "text": "Observe real edits", "originalText": "Observe real edits", "fontSize": 18, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#047857", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 140013, "version": 1, "versionNonce": 140014, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "phase4_detail", "type": "text", "x": 972, "y": 324, "width": 245, "height": 90, "text": "Watch a few people do the same task. Note stalls, repeated actions, confusion, and waits.", "originalText": "Watch a few people do the same task. Note stalls, repeated actions, confusion, and waits.", "fontSize": 15, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#374151", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 140015, "version": 1, "versionNonce": 140016, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.3
+    },
+    {
+      "id": "measure_divider", "type": "line", "x": 90, "y": 480, "width": 1180, "height": 0, "strokeColor": "#64748b", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "dashed", "roughness": 0, "opacity": 100, "angle": 0, "seed": 150001, "version": 1, "versionNonce": 150002, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "points": [[0, 0], [1180, 0]]
+    },
+    {
+      "id": "loop_title", "type": "text", "x": 92, "y": 520, "width": 460, "height": 30, "text": "2 · Improve what the baseline proves is slow", "originalText": "2 · Improve what the baseline proves is slow", "fontSize": 20, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#1e40af", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 150003, "version": 1, "versionNonce": 150004, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "hypothesis_box", "type": "rectangle", "x": 100, "y": 625, "width": 255, "height": 118, "strokeColor": "#1e3a5f", "backgroundColor": "#dbeafe", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160001, "version": 1, "versionNonce": 160002, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "hypothesis_text", "type": "text", "x": 122, "y": 643, "width": 211, "height": 80, "text": "Measure\nfirst preview · scrubbing stalls\nclip search · export failures", "originalText": "Measure\nfirst preview · scrubbing stalls\nclip search · export failures", "fontSize": 15, "fontFamily": 3, "textAlign": "left", "verticalAlign": "middle", "strokeColor": "#374151", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160003, "version": 1, "versionNonce": 160004, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": "hypothesis_box", "lineHeight": 1.3
+    },
+    {
+      "id": "measure_to_prioritize", "type": "arrow", "x": 360, "y": 684, "width": 105, "height": 0, "strokeColor": "#1e3a5f", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160011, "version": 1, "versionNonce": 160012, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "points": [[0, 0], [105, 0]], "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "prioritize_box", "type": "diamond", "x": 470, "y": 620, "width": 210, "height": 128, "strokeColor": "#b45309", "backgroundColor": "#fef3c7", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160021, "version": 1, "versionNonce": 160022, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false
+    },
+    {
+      "id": "prioritize_text", "type": "text", "x": 500, "y": 650, "width": 150, "height": 68, "text": "Pick the\nbiggest friction", "originalText": "Pick the\nbiggest friction", "fontSize": 16, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle", "strokeColor": "#374151", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160023, "version": 1, "versionNonce": 160024, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": "prioritize_box", "lineHeight": 1.25
+    },
+    {
+      "id": "prioritize_to_optimize", "type": "arrow", "x": 685, "y": 684, "width": 105, "height": 0, "strokeColor": "#1e3a5f", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160031, "version": 1, "versionNonce": 160032, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "points": [[0, 0], [105, 0]], "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "optimize_box", "type": "rectangle", "x": 800, "y": 625, "width": 235, "height": 118, "strokeColor": "#6d28d9", "backgroundColor": "#ddd6fe", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160041, "version": 1, "versionNonce": 160042, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "optimize_text", "type": "text", "x": 821, "y": 643, "width": 193, "height": 80, "text": "Try one change\nproxies · prefetch\nbackground export", "originalText": "Try one change\nproxies · prefetch\nbackground export", "fontSize": 15, "fontFamily": 3, "textAlign": "left", "verticalAlign": "middle", "strokeColor": "#374151", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160043, "version": 1, "versionNonce": 160044, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": "optimize_box", "lineHeight": 1.3
+    },
+    {
+      "id": "optimize_to_verify", "type": "arrow", "x": 1040, "y": 684, "width": 88, "height": 0, "strokeColor": "#1e3a5f", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160051, "version": 1, "versionNonce": 160052, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "points": [[0, 0], [88, 0]], "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "verify_dot", "type": "ellipse", "x": 1142, "y": 652, "width": 64, "height": 64, "strokeColor": "#047857", "backgroundColor": "#a7f3d0", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160061, "version": 1, "versionNonce": 160062, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false
+    },
+    {
+      "id": "verify_text", "type": "text", "x": 1149, "y": 671, "width": 50, "height": 24, "text": "Check", "originalText": "Check", "fontSize": 14, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle", "strokeColor": "#374151", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160063, "version": 1, "versionNonce": 160064, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": "verify_dot", "lineHeight": 1.2
+    },
+    {
+      "id": "feedback_loop", "type": "arrow", "x": 125, "y": 744, "width": 1050, "height": 92, "strokeColor": "#047857", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "dashed", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160071, "version": 1, "versionNonce": 160072, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "points": [[1050, 0], [1050, 92], [0, 92], [0, 0]], "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "feedback_label", "type": "text", "x": 500, "y": 847, "width": 370, "height": 30, "text": "Repeat with the same task; keep the change only if it helps.", "originalText": "Repeat with the same task; keep the change only if it helps.", "fontSize": 15, "fontFamily": 3, "textAlign": "center", "verticalAlign": "top", "strokeColor": "#047857", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 160073, "version": 1, "versionNonce": 160074, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "scope_note", "type": "text", "x": 94, "y": 925, "width": 1130, "height": 28, "text": "Keep advanced effects, collaboration, and automatic edits outside the first slice. Assistance stays optional and reviewable.", "originalText": "Keep advanced effects, collaboration, and automatic edits outside the first slice. Assistance stays optional and reviewable.", "fontSize": 15, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top", "strokeColor": "#64748b", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0, "opacity": 100, "angle": 0, "seed": 170001, "version": 1, "versionNonce": 170002, "isDeleted": false, "groupIds": [], "boundElements": null, "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    }
+  ],
+  "appState": {"viewBackgroundColor": "#ffffff", "gridSize": 20},
+  "files": {}
+}
