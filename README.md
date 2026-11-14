@@ -1,59 +1,58 @@
-# H3 — Footage Editing Prototype
+<div align="center">
 
-> **Status:** planning concept. This repository is currently a blank starting point; the product scope and sequence below are proposed for discussion, not implemented features.
+![MiniMax H3 — footage × image workflow concept](assets/minimax-h3-banner.png)
 
-### H3 editor concept
+# MiniMax H3 · Footage × Image Workflow
 
-![Concept image of the proposed H3 footage editor interface](assets/h3-editor-concept.png)
+**An idea for bringing MiniMax H3 and MiniMax H3 Image into a thoughtful, human-directed footage workflow.**
 
-H3 is a working name for a lightweight footage editing prototype. The first goal is to turn a folder of clips into a clean, watchable rough cut with a clear timeline and a dependable export. Start with a small, useful editing loop; add time-saving assistance only after the basic workflow feels solid.
+*Concept only — this repository does not contain a working editor or model integration yet.*
 
-### What we want to learn
+</div>
 
-- Can someone import a folder of mixed footage and quickly find the clips they need?
-- Can they assemble and adjust a rough cut without fighting the timeline?
-- Do preview and export behave reliably on the target machine and media formats?
-- Which repetitive editing steps are worth automating?
+## The idea
 
-### Proposed execution plan
+What if a footage editor could help turn a folder of clips into a clear first cut, then use image generation to explore visual direction around it? This prototype concept pairs **MiniMax H3** with **MiniMax H3 Image** in one reviewable workflow: organize footage, shape a rough cut, and explore still-image references while keeping the editor in control.
 
-The sequence is intentionally staged. Each phase should produce something usable and answer a question before the next layer is added.
+The goal is not to automate authorship. It is to reduce the busywork between collecting footage and finding a story worth refining.
 
-1. **Agree on the prototype boundary.** Pick the first user and editing task, target platform, supported formats, and a small sample footage set. Decide what “good enough” means for playback and export.
-2. **Build the vertical slice.** Import clips, show thumbnails and basic metadata, create a project, place clips on a single video track, trim/reorder them, and preview the sequence.
-3. **Save and export.** Persist project state, recover after reopening, and export one common preset. Compare output duration and playback against the timeline.
-4. **Try it with real footage.** Observe a few people completing the same short edit. Record where they pause, repeat actions, lose context, or wait.
-5. **Optimize the measured bottlenecks.** Prioritize responsive scrubbing, quick clip discovery, and predictable export based on observations and timings.
-6. **Test one assistive idea.** Prototype optional scene grouping or a suggested rough cut; keep every suggestion editable and compare it with a manual workflow.
+## A possible workflow
 
-### First prototype scope
+1. **Bring in footage.** Create a local project from a folder of clips and surface useful details such as duration, dimensions, and capture time.
+2. **Find the story.** Explore an H3-assisted way to group or describe moments and propose a rough sequence. Every suggestion stays editable and optional.
+3. **Explore the look.** Use H3 Image to create still-image references for mood, framing, or transitions. Treat these as visual development material, not silently inserted footage.
+4. **Edit and review.** Arrange, trim, and preview the selected clips on a simple timeline; compare the cut with the visual references.
+5. **Export when ready.** Save a recoverable project and render a conventional video, with progress and errors visible.
 
-| Include in the first slice | Defer until the slice works |
+This is a product hypothesis, not a claim about current MiniMax model capabilities or an implemented integration. Model access, supported inputs and outputs, and safe handling of local media all need to be researched before implementation.
+
+## First experiment
+
+Start with one short, consented footage set and one editing task. Sketch the import → review → rough cut → image-reference → export journey, then test whether the H3/H3 Image pairing helps an editor move faster without making the edit harder to control.
+
+Questions to answer:
+
+- Which moments are useful to surface, and what evidence should accompany a suggestion?
+- Where do image references help: mood boards, shot planning, or another part of the workflow?
+- How should generated references stay distinct from source footage and final timeline media?
+- What must remain local, and what can be sent to a model service?
+- Does the assisted workflow improve the time to a reviewable first cut while preserving user control?
+
+## Prototype boundary
+
+| Explore first | Leave for later |
 | --- | --- |
-| Local media import and clip bin | Multi-camera editing and collaboration |
-| One video track with trim, split, reorder, and delete | Advanced compositing, effects, and color grading |
-| Preview, project save/reopen, and one export preset | Cloud projects and account systems |
-| Basic clip search/sort and visible export progress | Automatic edits that change footage without review |
+| Local clip bin and a single-track timeline | Multi-camera editing and collaboration |
+| Basic trim, reorder, preview, save, and export | Advanced effects, grading, and compositing |
+| Optional, reviewable H3 suggestions | Automatic edits applied without approval |
+| Separate H3 Image reference board | Generated images presented as captured footage |
 
-### Optimization ideas to validate
+## Project status
 
-These are hypotheses, not commitments. Measure the current experience first, then pick the smallest change that addresses the biggest pain.
+This repository is currently a planning concept. It contains a proposed workflow diagram and this README; it does not yet include an application, model/API calls, benchmarks, or validated user research.
 
-- **Faster media startup:** generate lightweight proxies or thumbnails in the background; keep originals untouched and show processing state.
-- **Smoother scrubbing:** decode around the playhead, use proxy media when needed, and avoid blocking the interface during media work.
-- **Faster clip finding:** extract duration, resolution, and timestamps at import; later test opt-in scene grouping or searchable transcripts if users need them.
-- **More reliable exports:** run export work separately from interaction, expose progress and errors, and keep the project recoverable after failure.
-- **Less timeline friction:** test keyboard shortcuts, snapping, and direct trim handles with users before increasing timeline complexity.
-- **Useful assistance:** suggest, never silently apply, scene selections or a rough-cut order; make undo and manual edits obvious.
+- [Prototype plan](docs/prototype-plan.excalidraw)
 
-### Prototype diagram
+## Naming
 
-The editable Excalidraw plan is [`docs/prototype-plan.excalidraw`](docs/prototype-plan.excalidraw). It shows the build sequence and the feedback loop that decides what to optimize next.
-
-### How we will judge the prototype
-
-Use a short, repeatable edit task and capture task completion, time to first preview, number of manual clip searches, playback stalls, export success/failure, and user-reported friction. Set numeric targets after the first baseline run so they reflect the actual hardware and sample footage.
-
-### Suggested next decision
-
-Choose one target user and one representative editing task, then collect a small footage set. Those choices will let us turn this plan into concrete interface sketches and implementation milestones without guessing at the workflow.
+Here, **H3** refers to **MiniMax H3** and **MiniMax H3 Image**. The repository explores a possible product idea around those models; it is not affiliated with MiniMax and does not imply official support.
