@@ -2,7 +2,7 @@
 
 ![MiniMax H3 — footage × image workflow concept](assets/minimax-h3-banner.png)
 
-# MiniMax H3 · Footage × Image Workflow
+# MiniMax H3 · Footage × Image Workflow 
 
 **An idea for bringing MiniMax H3 and MiniMax H3 Image into a thoughtful, human-directed footage workflow.**
 
