@@ -6,7 +6,7 @@
 
 **A concept for a human-directed footage workflow pairing MiniMax H3 with MiniMax H3 Image.**
 
-*Concept only — this repository does not yet contain a working editor or model integration.*
+*Early prototype — local footage indexing only; no model integration or editor UI yet.*
 
 </div>
 
@@ -24,7 +24,17 @@ The goal is to reduce the busywork between collecting footage and finding a stor
 4. **Edit and review.** Arrange, trim, and preview clips on a simple timeline; compare the cut with the visual references.
 5. **Export when ready.** Save a recoverable project and render a conventional video, with progress and errors visible.
 
-This is a product hypothesis, not a claim about current MiniMax model capabilities or an implemented integration. Model access, supported inputs and outputs, and safe handling of local media need research before implementation.
+This is a product hypothesis, not a claim about current MiniMax model capabilities. Model access, supported inputs and outputs, and safe handling of local media need research before integration.
+
+## Try the scaffold
+
+The first code step creates a JSON project manifest from supported video files found in a folder. It records each file's absolute path, size, and filesystem modification time. It does not copy or upload media, inspect video metadata, or call a model.
+
+```bash
+python prototype.py ./path/to/footage --output ./project.json --name "Weekend edit"
+```
+
+Requires Python 3.10 or newer and has no third-party dependencies.
 
 ## First experiment
 
@@ -49,7 +59,7 @@ Questions to answer:
 
 ## Project status
 
-This repository is a planning concept. It contains a proposed workflow diagram and this README; it does not yet include an application, model/API calls, benchmarks, or validated user research.
+The repository now includes a small local manifest generator in `prototype.py`, plus the proposed workflow diagram. It does not yet include an editor UI, media probing, model/API calls, benchmarks, or validated user research.
 
 - [Prototype plan](docs/prototype-plan.excalidraw)
 
