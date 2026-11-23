@@ -16,6 +16,12 @@ What if an editor could turn a folder of clips into a clear first cut, then use 
 
 The goal is to reduce the busywork between collecting footage and finding a story worth refining.
 
+## Workflow overview
+
+![High-level H3 footage editing workflow](assets/h3-workflow.svg)
+
+*Conceptual flow: local footage ingestion → parallel H3 rough-cut suggestions and H3 Image visual references → human review and editing → save/export. Only local manifest generation is implemented today.*
+
 ## A possible workflow
 
 1. **Bring in footage.** Create a local project from a folder of clips and surface details such as duration, dimensions, and capture time.
