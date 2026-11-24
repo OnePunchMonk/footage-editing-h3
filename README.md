@@ -40,7 +40,7 @@ The first code step creates a JSON project manifest from supported video files f
 python prototype.py ./path/to/footage --output ./project.json --name "Weekend edit"
 ```
 
-Requires Python 3.10 or newer and has no third-party dependencies.
+Requires Python 3.10 or newer and has no third-party dependencies. The output is a local JSON manifest, not an edited video or a generated timeline.
 
 ## First experiment
 
